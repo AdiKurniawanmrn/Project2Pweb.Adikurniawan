@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Fieldset</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+
+<body class="hold-transition layout-top-nav">
+  <div class="wrapper">
+  <!-- navbar -->
+  <div class="container sticky-top">
+    <div class="row">
+      <div class="col">
+        <h1 class="mb-0 mt-0 text-center bg-primary">Sistem Informasi Seminar Tugas Akhir NF - SISTANF</h1>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+  
+          <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                  <a href="Landing_Page.html" class="nav-link text-primary">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Landing_Page.html" class="nav-link text-primary">Jadwal</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Seminar_Proposal.html" class="nav-link text-primary">Detail Jadwal</a>
+              </li>
+              <li class="nav-item">
+                <a href="Form_Daftar_Seminar_TA.html" class="nav-link text-primary text-dark">Daftar Peserta
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- /.navbar -->
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-md-8">
+              <p class="m-0">Mahasiswa Seminar: Abror Pratama Harahap (0110223168) <br>
+                Judul: Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework <br>
+                Waktu: Senin, 4 Januari 2026, 10:00</p>
+            </div><!-- /.col -->
+            <div class="col-md-6"></div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.content-header -->
+
+      <!-- Main content -->
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-12 mt-1">
+                      <form>
+                        <fieldset class="border p-4">
+                          <legend class="w-auto">Form Peserta Seminar</legend>
+
+                          <div class="card-body">
+                            <div class="row">
+                              <!-- kiri -->
+                              <div class="col-md-6">
+                                <div class="mb-2 row">
+                                  <label for="exampleInputEmail1" class="col-sm-4 col-form-label">NIM :</label>
+                                  <div class="col-sm-8">
+                                    <input type="number" class="form-control" id="exampleInputEmail1"
+                                      placeholder="Masukkan NIM">
+                                  </div>
+                                </div>
+                                <div class="mb-2 row">
+                                  <label for="exampleInputPassword1" class="col-sm-4 col-form-label">Nama :</label>
+                                  <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="exampleInputPassword1"
+                                      placeholder="Masukkan Nama">
+                                  </div>
+                                </div>
+
+                                <div class="mb-1 row">
+                                  <label for="exampleInputPassword1" class="col-sm-4 col-form-label">Prodi :</label>
+                                  <div class="col-sm-8">
+                                    <div class="form-group">
+                                      <select class="form-control">
+                                        <option>Teknik Informatika</option>
+                                        <option>Sistem Informasi</option>
+                                        <option>Bisnis Digital</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="row">
+                                  <label for="exampleInputPassword1" class="col-sm-4 col-form-label">Program :</label>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                      id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">D3</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                      id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">S1 Reguler</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                      id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">S1 Fast Trackt</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                      id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">S2</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card-body">
+                            <button type="submit" class="btn btn-primary" formaction="Form_Seminar.html">Daftar</button>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.container -->
+      </div><!-- /.content -->
+    </div><!-- /.content-wrapper -->
+     <!-- footer -->
+     <footer class="main-footer">
+      <div class="float-right d-none d-sm-block">
+        <b class="text-dark">Kelompok 7</b> 
+      </div>
+      <strong>Copyright &copy; Abror Pratama - 0110223168, Zhairan Ahmad - 0110223306, Abdurrahman Rafatullah - 0110223164, Adi Kurniawan - 0110223166</strong> 
+    </footer>
+  <!-- /footer -->
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+  </div><!-- ./wrapper -->
+
+  <!-- REQUIRED SCRIPTS -->
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.min.js"></script>
+  <!-- AdminLTE for demo purposes -->
+  <script src="dist/js/demo.js"></script>
+</body>
+
+</html>

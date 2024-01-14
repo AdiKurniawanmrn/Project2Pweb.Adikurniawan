@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Fieldset</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+
+<body class="hold-transition layout-top-nav">
+  <div class="wrapper">
+ <!-- navbar -->
+ <div class="container sticky-top">
+  <div class="row">
+    <div class="col">
+      <h1 class="mb-0 mt-0 text-center bg-primary">Sistem Informasi Seminar Tugas Akhir NF - SISTANF</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+        <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+       <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="Landing_Page.html" class="nav-link text-primary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Landing_Page.html" class="nav-link text-primary">Jadwal</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Form_Peserta_Seminar.html" class="nav-link text-dark">Detail Jadwal</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- /.navbar -->
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-sm-8"></div><!-- /.col -->
+            <div class="col-sm-6"></div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.content-header -->
+
+      <!-- Main content -->
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="container mt-5">
+                    <form>
+                      <fieldset class="border p-4">
+                        <legend class="w-auto">Seminar Proposal</legend>
+
+                        <div class="card-body">
+                          <div class="row">
+                            <!-- kiri -->
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Nim</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                      value=": 0110223168">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Nama</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                      value=": Abror Pratama Harahap">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Prodi</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                      value=": Teknik Informatika">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Judul</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                      value=": Rancang Bangun Aplikasi Seminar Tugas AKhir Berbasis Web ">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Waktu</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                      value=": Senin, 4 Januari 2026, 10:00">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Ruang</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                      value=": Zoom Online">
+                                  </div>
+                                </div>
+
+                              </div>
+                            <!-- kanan -->
+                            <div class="col-md-6">
+
+                                <div class="mb-1 row">
+                                  <label for="exampleInputPassword1"
+                                    class="col-sm-3 col-form-label">Pembimbing</label>
+                                  <div class="form-group row">
+                                    <div class="col-sm-12">
+                                      <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                        value=": Sirojul Munir S.SSI, M.KOM">
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="mb-1 row">
+                                  <label for="exampleInputPassword1" class="col-sm-3 col-form-label">Penguji</label>
+                                  <div class="form-group row">
+                                    <div class="col-sm-12">
+                                      <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                                        value=": Ahmad Rio M.SI">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                      <div class="card-body">
+                        <button type="submit" class="btn btn-primary" formaction="Daftar_Peserta_Seminar.html">Daftar Peserta</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+   <!-- footer -->
+   <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b class="text-dark">Kelompok 7</b> 
+    </div>
+    <strong>Copyright &copy; Abror Pratama - 0110223168, Zhairan Ahmad - 0110223306, Abdurrahman Rafatullah - 0110223164, Adi Kurniawan - 0110223166</strong> 
+  </footer>
+  <!-- /footer -->
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED SCRIPTS -->
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.min.js"></script>
+  <!-- AdminLTE for demo purposes -->
+  <script src="dist/js/demo.js"></script>
+  
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
